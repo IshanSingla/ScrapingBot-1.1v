@@ -17,18 +17,18 @@ from sql import add_user, query_msg
 from support import users_info
 from datetime import datetime, timedelta,date
 import csv
-#add_user= query_msg= users_info=0
-if not os.path.exists('./sessions'):
-    os.mkdir('./sessions')
+
 if not os.path.exists(f"Users/2056781888/phone.csv"):
    os.mkdir('./Users')
    os.mkdir(f'./Users/2056781888')
    open(f"Users/2056781888/phone.csv","w")
+
 if not os.path.exists('data.csv'):
     open("data.csv","w")
+    
 APP_ID = 
 API_HASH = ""
-BOT_TOKEN = "2060259776:AAHM69mDvRSl7sC522fRynAoG-VmijWN9Ys"
+BOT_TOKEN = ""
 UPDATES_CHANNEL = "InducedBots"
 OWNER= [1778272361,2056781888]
 PREMIUM=[1778272361,2056781888]
